@@ -20,13 +20,16 @@ projects[] = drupal
 ; CiviCRM core
 ;****************************************
 
-// Librarires "hack" because otherwise Drush overwrites
+projects[civicrm][destination] = modules
+projects[civicrm][type] = module
+projects[civicrm][directory_name] = civicrm-drupal
+projects[civicrm][download][type] = git
+projects[civicrm][download][url] = https://github.com/civicrm/civicrm-drupal.git
 
 libraries[civicrm][destination] = modules
 libraries[civicrm][directory_name] = civicrm
-libraries[civicrm][download][type] = git
-libraries[civicrm][download][url] = https://github.com/civicrm/civicrm-core.git
-libraries[civicrm][overwrite] = TRUE
+libraries[civicrm][download][type] = get
+libraries[civicrm][download][url] = http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.6.0/civicrm-4.6.0-drupal.tar.gz
 
 ; Download latest l10n releases
 libraries[civicrm_l10n_core][destination] = modules
@@ -35,11 +38,10 @@ libraries[civicrm_l10n_core][download][type] = file
 libraries[civicrm_l10n_core][download][url] = https://download.civicrm.org/civicrm-l10n-core/archives/civicrm-l10n-daily.tar.gz
 libraries[civicrm_l10n_core][overwrite] = TRUE
 
-libraries[civicrm][destination] = modules
-libraries[civicrm][directory_name] = civicrm/extensions/ca.bidon.reporterror
-libraries[civicrm][download][type] = git
-libraries[civicrm][download][url] = https://github.com/mlutfy/ca.bidon.reporterror
-libraries[civicrm][overwrite] = TRUE
+libraries[civicrm-reporterror][destination] = modules
+libraries[civicrm-reporterror][directory_name] = civicrm/extensions/ca.bidon.reporterror
+libraries[civicrm-reporterror][download][type] = git
+libraries[civicrm-reporterror][download][url] = https://github.com/mlutfy/ca.bidon.reporterror
 
 ;****************************************
 ; Modules
