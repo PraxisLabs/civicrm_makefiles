@@ -49,8 +49,13 @@ libraries[civicrm-reporterror][download][url] = https://github.com/mlutfy/ca.bid
 
 projects[ctools][subdir] = contrib
 projects[i18n][subdir] = contrib
+projects[entity][subdir] = contrib
 projects[l10n_client][subdir] = contrib
 projects[l10n_update][subdir] = contrib
+projects[libraries][subdir] = contrib
+projects[options_element][subdir] = contrib
+projects[rules][subdir] = contrib
+projects[variable][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 
