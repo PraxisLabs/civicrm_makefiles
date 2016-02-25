@@ -8,6 +8,7 @@
 api = 2
 
 ; Drupal core
+; TODO: Find a way to automate new tags on core versions
 core = 7.x
 
 ; ****************************************
