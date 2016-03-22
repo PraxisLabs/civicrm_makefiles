@@ -11,11 +11,11 @@ api = 2
 ; TODO: Find a way to automate new tags on core versions
 core = 7.x
 
-; ****************************************
-; Drupal core
-; ****************************************
-
-projects[] = drupal
+;*****
+; Praxis 100 (includes core)
+; projects[] = drupal
+;*****
+includes[praxis100] = "https://raw.githubusercontent.com/PraxisLabs/praxis100_makefiles/master/praxis100.make"
 
 ;****************************************
 ; CiviCRM core
