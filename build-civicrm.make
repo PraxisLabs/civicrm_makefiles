@@ -30,7 +30,7 @@ projects[civicrm][download][url] = https://github.com/civicrm/civicrm-drupal.git
 libraries[civicrm][destination] = modules
 libraries[civicrm][directory_name] = civicrm
 libraries[civicrm][download][type] = get
-libraries[civicrm][download][url] = https://download.civicrm.org/civicrm-4.7.4-drupal.tar.gz
+libraries[civicrm][download][url] = https://download.civicrm.org/civicrm-4.7.8-drupal.tar.gz
 
 ; Download latest l10n releases
 libraries[civicrm_l10n_core][destination] = modules
@@ -61,4 +61,4 @@ projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 
 projects[webform_civicrm][subdir] = contrib
-projects[webform_civicrm][version] = 4.14
+projects[webform_civicrm][version] = 4.15
