@@ -44,6 +44,11 @@ libraries[civicrm-reporterror][directory_name] = civicrm/extensions/ca.bidon.rep
 libraries[civicrm-reporterror][download][type] = git
 libraries[civicrm-reporterror][download][url] = https://github.com/mlutfy/ca.bidon.reporterror
 
+libraries[ckeditor][destination] = libraries
+libraries[ckeditor][directory_name] = ckeditor
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.6.2/ckeditor_4.6.2_standard.zip
+
 ;****************************************
 ; Modules
 ;****************************************
