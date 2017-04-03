@@ -31,6 +31,8 @@ libraries[civicrm][destination] = modules
 libraries[civicrm][directory_name] = civicrm
 libraries[civicrm][download][type] = get
 libraries[civicrm][download][url] = https://download.civicrm.org/civicrm-4.7.17-drupal.tar.gz
+;; Patch for multisite ckeditor settings
+libraries[civicrm][patch][]  = https://github.com/civicrm/civicrm-core/pull/9458.diff
 
 ; Download latest l10n releases
 libraries[civicrm_l10n_core][destination] = modules
