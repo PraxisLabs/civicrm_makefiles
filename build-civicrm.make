@@ -30,7 +30,7 @@ projects[civicrm][download][url] = https://github.com/civicrm/civicrm-drupal.git
 libraries[civicrm][destination] = modules
 libraries[civicrm][directory_name] = civicrm
 libraries[civicrm][download][type] = get
-libraries[civicrm][download][url] = https://download.civicrm.org/civicrm-4.7.17-drupal.tar.gz
+libraries[civicrm][download][url] = https://download.civicrm.org/civicrm-4.7.20-drupal.tar.gz
 ;; Patch for multisite ckeditor settings
 libraries[civicrm][patch][]  = https://github.com/civicrm/civicrm-core/pull/9458.diff
 
