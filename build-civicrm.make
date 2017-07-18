@@ -66,4 +66,4 @@ projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 
 projects[webform_civicrm][subdir] = contrib
-projects[webform_civicrm][version] = 4.17
+projects[webform_civicrm][version] = 4.18
